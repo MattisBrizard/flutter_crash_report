@@ -1,0 +1,23 @@
+name: poc_fnow
+description: A poc for the Fnow project.
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  map_view_plugin:
+    path: plugins/map_view_plugin
+
+dev_dependencies:
+  flutter_driver:
+    sdk: flutter
+  test: any
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
